@@ -51,7 +51,7 @@ var createBoard = function () {
 	for (var i = 0; i < cards.length; i++) {
 		var cardElement = document.createElement('img'); 	//correct
 		cardElement.setAttribute('src', 'images/back.png'); //correct
-		cardElement.setAttribute('data-id', i);				// I Think Correct
+		cardElement.setAttribute('data-id', i);				//correct
 		cardElement.addEventListener('click', flipCard);	//correct
 		document.getElementById('game-board').appendChild(cardElement); //correct
 	}
